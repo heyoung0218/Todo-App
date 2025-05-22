@@ -5,6 +5,11 @@
   text-align: center;
 }
 
+.app-header {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -17,7 +22,20 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
-
+.todo-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.todo-item {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.todo-content {
+  flex-grow: 1;
+}
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
